@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 h1 {
   font-family: 'KH-Dot-Hibiya' !important;
 }
@@ -67,73 +66,3 @@ h1 {
     height: 100%;
     border: none;
 }
-=======
-h1 {
-  font-family: 'KH-Dot-Hibiya' !important;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: "Hiragino Sans", sans-serif;
-    background: #fff;
-}
-
-header {
-    text-align: center;
-    padding: 20px 0;
-    background: #dfdfdf;
-}
-
-h1 {
-    margin: 0;
-    font-size: 32px;
-    font-weight: bold;
-}
-
-/* ここからメモ並べる部分 */
-.memo-board {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
-    padding: 30px;
-}
-
-/* メモの形 */
-.memo {
-    background: #ffffff;
-    border: 2px solid #bebebe;
-    padding: 15px;
-}
-
-/* メモの画像と動画 */
-.memo img,
-.memo video {
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-/* テキスト */
-.memo p {
-    margin: 0;
-    line-height: 1.6;
-    color: #444;
-}
-
-/* 動画の幅とか */
-.video-wrapper {
-    position: relative;
-    width: 100%;
-    padding-top: 56.25%; /* 16:9 */
-    margin-bottom: 10px;
-}
-
-.video-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-}
->>>>>>> bc7012e947a5c0ef61f8b3796eb07432525c9887
